@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+/**
+ * Module dependencies.
+ */
+try {
+    console.log("Starting application...");
+    const www = require("./www");
+} catch (err) {
+    console.log(`Unexpected error while starting the application: ${err}`);
+}
