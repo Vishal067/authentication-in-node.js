@@ -7,8 +7,8 @@ These instructions will get you a copy of the project up and running on your loc
 Need to have nodejs and npm installed
 You have google workspace account to send emails
 # Clone the repo
- $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
- $ cd PROJECT_TITLE
+ $ git clone https://github.com/Vishal067/MathongO
+ $ cd MathongO
  $ npm install
 
 
