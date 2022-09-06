@@ -51,8 +51,8 @@ const sendEmail = async (mailOptions, verificationCode) => {
   const sent =   await transporter.sendMail(mailOptions);
     console.log("email sent");
     //add verification code to database
-    await collection.updateOne({email : mailOptions.to}, {$set : {verificationCode : verificationCode}});
-    return sent;
+    return await collection.updateOne({email : mailOptions.to}, {$set : {verificationCode : verificationCode}});
+    
     
 }
 

@@ -21,4 +21,7 @@ router.post("/reset-password", authService.sendPasswordResetLink);
 //reset password
 router.post("/reset-password/:token", authService.resetPassword);
 
+//password reset page
+router.get("/reset", authService.resetPasswordPage);
+
 module.exports = router;
