@@ -1,16 +1,18 @@
-# MathonGo backend
-this is the backend for the mathongo app which uses the nodejs framework express and mongodb as the database
+# authentication-in-node.js backend
+this is the backend in the nodejs framework express and mongodb as the database
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ### Prerequisites
 Need to have nodejs and npm installed
 You have google workspace account to send emails
-# Clone the repo
- $ git clone https://github.com/Vishal067/MathongO
+
+## Clone the repo
+```
+ $ git clone https://github.com/Vishal067/authentication-in-node.js
  $ cd MathongO
  $ npm install
-
+```
 
 
 ### Installing dependencies
