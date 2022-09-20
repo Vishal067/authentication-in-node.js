@@ -9,7 +9,7 @@ var transporter = nodemailer.createTransport({
     } 
 });
 
-const uri = "mongodb+srv://test:t0bRM9V2RqXZDMjX@vishalcluster.zjn2blt.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 client.connect().then(() => {

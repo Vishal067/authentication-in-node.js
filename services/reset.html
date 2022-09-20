@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+  <title>Reset Password</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+<body>
+  <div class="main">
+    <p class="sign" align="center">Reset Password</p>
+    <form class="form1" method="post">
+      <input class="un" id="pswrd-1" name="password" type="password" align="center" placeholder="Password" >
+        <i class="fa fa-eye showpwd" id="icon"></i>
+      <p id="pwd-length-1"></p>
+      <input class="pass" id="pswrd-2" name="confirmPassword" type="password"  align="center" placeholder="Confirm Password" >
+        <i class="fa fa-eye showpwd"  id="icon2"></i>
+      <span id="pwd-length-2"></span>
+        <p id="message"></p>
+      <button class="submit" type="submit" id="formSubmit" align="center" disabled >Reset</button>
+        </form>
+    </div>
+  <script src="reset.js"></script>
+</body>
+</html>

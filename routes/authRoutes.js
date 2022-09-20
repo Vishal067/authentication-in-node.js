@@ -19,9 +19,15 @@ router.post("/verify", authService.verifyCode);
 router.post("/reset-password", authService.sendPasswordResetLink);
 
 //reset password
-router.post("/reset-password/:token", authService.resetPassword);
+// router.post("/reset-password/:token", authService.resetPassword);
 
 //password reset page
 router.get("/reset", authService.resetPasswordPage);
+//password reset page post api to get token and form data
+router.post("/reset", authService.resetPasswordPagePost);
+//password reset page css
+router.get("/reset.css", authService.resetPasswordPageCss);
+//password reset page js
+router.get("/reset.js", authService.resetPasswordPageJs);
 
 module.exports = router;
